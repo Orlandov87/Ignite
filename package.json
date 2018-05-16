@@ -1,0 +1,11 @@
+{
+  "name": "ignite",
+  "version": "0.0.1",
+  "description": "Messaging app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Orlando Vargas",
+  "license": "MIT"
+}

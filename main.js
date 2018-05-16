@@ -27,8 +27,16 @@ app.on('ready', function(){
     Menu.setApplicationMenu(mainMenu);
 });
 
+// Menu template that will be used. 
 const mainMenuTemplate = [
+    // Mac requires an empty space
+    {},
     {
-        label: 'File'
+        label: 'File',
+        submenu: [
+            {
+                label: 'Help'
+            }
+        ]
     }
 ]

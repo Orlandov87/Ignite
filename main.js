@@ -1,5 +1,5 @@
 const electron = require('electron');
-// const remote = require('electron').remote;
+const remote = require('electron').remote;
 const url = require('url');
 const path = require('path');
 
@@ -12,7 +12,8 @@ let mainWindow;
 app.on('ready', function(){
     // Create new window
     mainWindow = new BrowserWindow({
-        titleBarStyle: 'hidden'
+        titleBarStyle: 'hidden',
+		frame: false
     });
     // Load html file
     mainWindow.loadURL(url.format({
@@ -27,7 +28,6 @@ app.on('ready', function(){
 });
 
 const mainMenuTemplate = [
-    { },
     {
         label: 'File'
     }

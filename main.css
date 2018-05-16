@@ -6,3 +6,12 @@ h1 {
     color: white;
     text-align: center;
 }
+
+.titlebar {
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+}
+
+#test {
+	color: blue;
+}

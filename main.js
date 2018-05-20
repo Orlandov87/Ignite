@@ -35,8 +35,11 @@ const mainMenuTemplate = [
         label: 'File',
         submenu: [
             {
-                label: 'Help'
+                label: 'Settings'
             }
         ]
+    },
+    {
+        label: 'hello'
     }
 ]

@@ -1,7 +1,3 @@
 # Ignite
 
-Things to get done: 
-
-    Organization: We need to set-up the apps requirements and set up SCRUM
-
-    Set-up: We need to set up the environment correctly. 
+This will the the go to app for comunications by gamers. 

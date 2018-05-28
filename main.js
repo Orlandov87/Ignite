@@ -8,12 +8,13 @@ const {app, BrowserWindow, Menu} = electron;
 
 let mainWindow;
 
-// Listen for the app to be ready
-app.on('ready', function(){
+
+// Listen for the app to be ready before calling this method.
+app.on('ready', function() {
     // Create new window
     mainWindow = new BrowserWindow({
         titleBarStyle: 'hidden',
-		frame: false
+        frame: false
     });
     // Load html file
     mainWindow.loadURL(url.format({

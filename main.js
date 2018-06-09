@@ -18,7 +18,7 @@ app.on('ready', function() {
     });
     // Load html file
     mainWindow.loadURL(url.format({
-        pathname: path.join(__dirname, 'mainWindow.html'),
+        pathname: path.join(__dirname, 'main.html'),
         protocol: 'file:',
         slashes: true
     }));
@@ -28,7 +28,7 @@ app.on('ready', function() {
     Menu.setApplicationMenu(mainMenu);
 });
 
-// Menu template that will be used. 
+// Menu template that will be used.
 const mainMenuTemplate = [
     // Mac requires an empty space
     {},

@@ -1,7 +1,11 @@
-body {
-    background-color: #202020;
+
+.mainBody {
+    background-color: #303030;
 }
 
+.subBody {
+    background-color: #202020;
+}
 h1 {
     color: white;
     text-align: center;
